@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #F92036;
+} 
+
+.text-box { 
+    width: 60rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.color{
+    word-spacing: 1rem;
+}
+
+.bold {
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(51, 69, 104);
+    padding: .3rem .5rem;
+    border-radius: .2rem;
+    box-shadow: 0 .1rem .2rem rgba(0,0,0,.3rem);
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-duration: .6s;
+   
+}
+
+@keyframes bounce {
+    form {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.color {
+    text-transform: uppercase;
+    color: #fff;
+}
